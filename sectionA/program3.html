@@ -1,7 +1,7 @@
 <html>
 <title> Arithmetic expression Evaluation </title>
 <script type="text/javascript">
-    function evaluate() {
+    function evaluateh() {
         var enteredExpr = document.getElementById("expr").value;
         document.getElementById("result").value = eval(enteredExpr);
     }
@@ -12,9 +12,9 @@
 <hr>
 <form name="myform">
     <b>
-        &nbsp&nbsp Enter any valid Expression : <input type=text id=expr><br><br>
-        &nbsp &nbsp <input type=button value="Evaluate" onclick="evaluate()"/><br> <br>
-        &nbsp &nbsp Result of the expression : <input type=text id=result><br>
+        &nbsp&nbsp Enter any valid Expression : <input type="text" id="expr"><br><br>
+        &nbsp &nbsp <input type=button value="Evaluate" onclick="evaluateh()"/><br> <br>
+        &nbsp &nbsp Result of the expression : <input type="text" id="result"><br>
     </b>
 
 </form>
